@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    h1{
+        text-align: center;
+    }
+    >:nth-child(2){ /*class: menu*/
+        
+        >:first-child{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:15.5px;
+            color: blueviolet;
+            display: inline-block;
+            padding-top: 10px;
+            width: 25%;
+            border-radius: 20px;
+            border: solid;
+            &:hover{
+                border-color: blue;
+                box-shadow: 0px 0px 10px lightblue;
+            }
+            & img{
+                height: 250px;
+            }
+            & h3{
+                color: rgb(38, 0, 255);
+            }
+            & h3 + p {
+                color: black;
+                font-style: italic;
+            }
+            & p:last-child{
+                color: black;
+                font-weight: bold;
+            }
+            > p ~ button{
+                background-color: blue;
+                color: white;
+                border-radius: 15px;
+                padding: 5px 10px;
+                margin-bottom: 15px;
+                &:hover{
+                    color: black;
+                    background-color: green;
+                }
+                &:focus{
+                    color: black;
+                    background: green;
+                }
+            }
+        }
+        >div{
+            display: inline-block;
+            padding-top: 10px;
+            width: 25%;
+            border-radius: 20px;
+            border: solid;
+            &:hover{
+                border-color: blue;
+                box-shadow: 0px 0px 10px lightblue;
+            }
+            & img{
+                height: 250px;
+            }
+            & h3{
+                color: rgb(38, 0, 255);
+            }
+            & h3 + p {
+                color: black;
+                font-style: italic;
+            }
+            & p:last-child{
+                color: black;
+                font-weight: bold;
+            }
+            > p ~ button{
+                background-color: blue;
+                color: white;
+                border-radius: 15px;
+                padding: 5px 10px;
+                margin-bottom: 15px;
+                &:hover{
+                    color: black;
+                    background-color: green;
+                }
+                &:focus{
+                    color: black;
+                    background: green;
+                }
+            }
+        }
+    }
+}
